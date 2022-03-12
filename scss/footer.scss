@@ -1,0 +1,128 @@
+.footer{
+     margin-top: 20%;
+     background-color: $DarkBlue1;
+    &_triangle{
+        transform: rotate(3deg) skewx(2deg) translateY(-85px);
+        content: '';
+        transform-origin: 0 0;
+        height: 150px;
+        display: block;
+        background-color: white;
+        width: 100%;
+    }
+
+    &_content{
+        display:flex;
+        height: 250px;
+        padding-right: 54px;
+        padding-left: 42px;
+
+        
+    
+    }
+
+    .footer_contact{
+        display:flex;
+        flex-direction: column;
+        margin-bottom: auto;
+        border-right: 1px solid white;
+        padding-right: 30px;
+
+        .contact{
+            padding-top: 35px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        
+
+    }
+    .footer_links{
+        padding-left: 35px;
+        display:flex;
+        justify-content: space-between;
+        margin-bottom: auto;
+        border-right: 1px solid white;
+        
+            .fylo{
+                display:flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .company{
+                display:flex;
+                flex-direction: column;
+                align-items: center;
+
+            }
+            .support{
+                display:flex;
+                flex-direction: column;
+                align-items: center;
+            }    
+
+
+
+           
+
+    }
+    &_form{
+        padding-left: 40px;
+        display:flex;
+        flex-direction: column;
+        P{
+            padding: 3px 6px;
+            font-family:$SecondaryFont;
+            font-size: 1rem;
+            font-weight: 400;
+            color: $White;
+
+        }
+
+       
+        
+    }
+
+    .footer_links-title{
+        padding: 11px 36px;
+        font-family:$PrimaryFont;
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: $White;
+    
+    }
+
+    .joinbutton{
+
+        
+        font-size: 1.5rem;
+        color:white;
+        font-family: $SecondaryFont;
+        padding: 0px 45px;
+        border:0px;
+        border-radius: 2px;
+        box-shadow: 2px 2px 7px rgba(255, 255, 255, 0.25);
+        background-color:hsl(163,95%,43%);
+    }
+    .joinbutton:hover{
+        background-color: rgb(26, 197, 103);
+    }
+
+    .joinbutton:active{
+        background: #27ae60;
+
+    }
+    input::placeholder{
+        color: lightgrey;
+    }
+    
+    
+    @media screen and (max-width: 800px)
+    {
+        .footer_linkst{
+            flex-wrap: wrap;
+        }
+    }
+
+}
+

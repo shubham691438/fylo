@@ -1,0 +1,24 @@
+.intro{
+    width : 100%;
+    display : flex;
+    flex-wrap: wrap-reverse;
+    position:relative;
+    justify-content: space-around;
+    z-index: 1;
+    padding-bottom: 145px;
+
+    &_image{
+    
+        width: 375px;
+        height: 273px;
+        background-image: url('/fylo-dark-theme-landing-page-master/fylo-dark-theme-landing-page-master/images/illustration-intro.png');
+        background-size: cover;
+    }
+    
+    &_text{
+        padding-top: 50px;
+    }
+
+    
+
+}

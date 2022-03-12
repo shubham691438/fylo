@@ -1,0 +1,13 @@
+.footer_triangle {
+  border: 1px solid red;
+  -webkit-transform: rotate(4deg) skewx(4deg) translateY(49px);
+          transform: rotate(4deg) skewx(4deg) translateY(49px);
+  content: '';
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  height: 150px;
+  display: block;
+  background-color: white;
+  width: 100%;
+}
+/*# sourceMappingURL=footer.css.map */

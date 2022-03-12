@@ -1,0 +1,29 @@
+.signbutton{
+    padding: 3px 20px;
+    border:0px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 7px rgba(255, 255, 255, 0.25);
+    background-color:hsl(163,95%,43%);
+}
+
+.startbutton{
+    padding: 0px 62px;
+    border: 56px;
+    border-radius: 6px;
+    font-size: 2rem;
+    box-shadow: 4px 4px 7px rgba(255, 255, 255, 0.25);
+    background-color:hsl(163,95%,43%);
+
+}
+
+button:hover{
+    
+    background-color: rgb(26, 197, 103);
+    
+    
+}
+button:active{
+    background: #27ae60;
+     
+    
+}

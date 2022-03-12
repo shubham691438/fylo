@@ -1,0 +1,27 @@
+.signbutton {
+  padding: 3px 20px;
+  border: 0px;
+  border-radius: 2px;
+  -webkit-box-shadow: 2px 2px 7px rgba(255, 255, 255, 0.25);
+          box-shadow: 2px 2px 7px rgba(255, 255, 255, 0.25);
+  background-color: #05d69b;
+}
+
+.startbutton {
+  padding: 0px 62px;
+  border: 56px;
+  border-radius: 6px;
+  font-size: 2rem;
+  -webkit-box-shadow: 4px 4px 7px rgba(255, 255, 255, 0.25);
+          box-shadow: 4px 4px 7px rgba(255, 255, 255, 0.25);
+  background-color: #05d69b;
+}
+
+button:hover {
+  background-color: #1ac567;
+}
+
+button:active {
+  background: #27ae60;
+}
+/*# sourceMappingURL=buttons.css.map */

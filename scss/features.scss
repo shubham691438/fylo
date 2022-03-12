@@ -1,0 +1,78 @@
+.features{
+
+    .triangular_design{
+        transform: rotate(4deg) skewx(4deg) translateY(-115px);
+        content: '';
+        transform-origin: 0 0;
+        height: 150px;
+        display: block;
+        background-color: white;
+        width: 100%;
+        
+        
+    }
+
+    h2{
+        transform: translateY(-110px);
+        padding-left: 42px;
+        padding-right: 54px;
+       
+
+    }
+
+    &_content{
+        display: flex;
+        transform: translateY(-160px);
+        padding-left: 42px;
+        padding-right: 54px;
+        padding-top: 108px;
+
+        
+
+        img{
+            
+            height: 260px;
+            width: 280px;
+            padding-right: 104px;
+        }
+
+        h3{
+            font-size: 1.1rem;
+            color:$DarkBlue1;
+
+
+        }
+        p{
+            color:gray;
+            font-family:$SecondaryFont;
+            font-size: 0.8rem;
+            line-height:1.3;
+        }
+
+        .features_item{
+            display:flex;
+            flex-direction: column;
+            padding-right: 29px;
+            justify-content: center;
+            
+        }
+
+        
+
+            
+        
+
+
+        
+    }
+ 
+    @media screen and (max-width: 800px)
+        {
+            .features_content{
+                flex-wrap: wrap;
+            }
+        }
+    
+
+
+}

@@ -1,0 +1,97 @@
+html{
+    box-sizing: border-box;
+    font-size: 100%;
+
+}
+
+body{
+    margin:0;
+    
+}
+
+h1{
+    font-family:$PrimaryFont;
+    font: size 2rms;
+    font-weight:700;
+    color:$White;
+
+}
+
+
+
+
+nav{
+    position: relative;
+    z-index: 1;
+    button{
+        
+        padding: 3px 6px;
+        font-family:$SecondaryFont;
+        font-size: 1rem;
+        font-weight: 400;
+        color: $White;
+      }
+
+      
+}
+h2 {
+    text-align: center;
+    font-family:$PrimaryFont;
+    font-size : 2rem;
+    font-weight:700;
+    color:$DarkBlue1;
+}
+
+a{
+    padding: 3px 6px;
+    font-family:$SecondaryFont;
+    font-size: 1rem;
+    font-weight: 400;
+    color: $White;
+
+}
+a:link{ 
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color:aqua
+}
+
+
+a:active{
+    color: blueviolet;
+
+    
+    
+}
+
+    
+
+
+
+//helper class
+.bluegradient{
+    background-image: radial-gradient(circle at bottom right,$Blue,$DarkBlue1);
+}
+
+.logo{
+    position: relative;
+    z-index: 1;
+    display:block;
+    width :176px;
+    height:52px;
+    background-image: url('/fylo-dark-theme-landing-page-master/fylo-dark-theme-landing-page-master/images/logo.svg');
+    background-size: cover;
+}
+
+.break{
+    flex-basis: 100%;
+    height:0px;
+}
+
+input[type="email"]{
+    font-size: 1.5rem;
+
+}   

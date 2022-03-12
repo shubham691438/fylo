@@ -1,0 +1,49 @@
+.join{
+    padding-right: 54px;
+    padding-left: 42px;
+    p{
+       text-align: center;
+       font-family: $SecondaryFont;
+       color:$DarkBlue1;
+       font-size: 1rem;
+       
+    }
+
+    form{
+        margin-bottom: 60px;
+        text-align: center;
+
+        input[type="email"]{
+            font-size: 1.5rem;
+        
+        }
+
+        input::placeholder{
+            color: lightgrey;
+        }
+
+        .joinbutton{
+
+             
+
+            font-size: 1.5rem;
+            color:white;
+            font-family: $SecondaryFont;
+            padding: 0px 45px;
+            border:0px;
+            border-radius: 2px;
+            box-shadow: 2px 2px 7px rgba(255, 255, 255, 0.25);
+            background-color:hsl(163,95%,43%);
+        }
+        .joinbutton:hover{
+            background-color: rgb(26, 197, 103);
+        }
+
+        .joinbutton:active{
+            background: #27ae60;
+
+        }
+    }
+
+    
+}
