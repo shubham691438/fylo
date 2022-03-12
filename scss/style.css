@@ -82,7 +82,6 @@ a:active {
   display: block;
   width: 176px;
   height: 52px;
-  background-image: url("/fylo-dark-theme-landing-page-master/fylo-dark-theme-landing-page-master/images/logo.svg");
   background-size: cover;
 }
 
@@ -113,7 +112,6 @@ input[type="email"] {
 .intro_image {
   width: 375px;
   height: 273px;
-  background-image: url("/fylo-dark-theme-landing-page-master/fylo-dark-theme-landing-page-master/images/illustration-intro.png");
   background-size: cover;
 }
 
